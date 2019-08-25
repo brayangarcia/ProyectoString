@@ -15,7 +15,9 @@ public class Palabras {
     public Palabras(){
         
     }
-    
+    /**
+     * metodo que guarda string
+     */
     public void GuardarString(){        
         int i;
         String cadena, cadenaEsp;
