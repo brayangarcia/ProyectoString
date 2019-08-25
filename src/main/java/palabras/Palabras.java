@@ -7,16 +7,19 @@ package palabras;
 import java.util.Scanner;
 
 /**
- *
- * @author USER
+ * Clase que realiza operaciones con un String que recibe el usuario.
+ * @author BRAYAN, ISAAC
  */
 public class Palabras {
     
+    /**
+     * Constructor de la clase Palabras.
+     */
     public Palabras(){
         
     }
     /**
-     * metodo que guarda string
+     * Metodo que guarda String y envia a otro metodo el string
      */
     public void GuardarString(){        
         int i;
@@ -30,7 +33,9 @@ public class Palabras {
         //System.out.println(cadenaEsp);
         LetrasNoRepetidas(cadenaEsp);
     }
-    
+    /**
+     * Metodo que recibe un String y evalua que letras de ese String no estan repetidas
+     */
     public void LetrasNoRepetidas(String caracteres){
         int i,j;
         int cont=0;

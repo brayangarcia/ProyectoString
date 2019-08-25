@@ -7,8 +7,8 @@ import palabras.Palabras;
  */
 
 /**
- *
- * @author USER
+ * Clase principal que es donde se empieza el programa.
+ * @author BRAYAN, ISAAC
  */
 public class Principal {
     
@@ -16,7 +16,9 @@ public class Principal {
         Principal princip = new Principal();
         
     }
-    
+    /**
+     * Constructor de la clase donde se llama a la clase Palabras.
+     */
     public Principal(){
         Palabras palabras = new Palabras();
         palabras.GuardarString();
